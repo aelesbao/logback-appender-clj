@@ -11,4 +11,6 @@
                  [com.stuartsierra/component "0.2.2"]
                  [ch.qos.logback/logback-classic "1.1.1"]]
 
-  :main sample-appender.core)
+  :main sample-appender.core
+
+  :aot [sample-appender.appender])
